@@ -2,8 +2,8 @@
 # Thesis
 
 Server Guide: <br/>
-Step 1: Install Pip
-Step 2: Install Django
+Step 1: Install Pip <br/>
+Step 2: Install Django <br/>
 Step 3: Create VirtualEnv <br/>
 Step 4: Install pip Requirements <br/>
 Step 5: Run Server <br/>
