@@ -1,20 +1,21 @@
 # MyPocketDentist
 # Thesis
 
-Server Guide: <br/>
-Step 1: Install Pip <br/>
-Step 2: Install Django <br/>
-Step 3: Install Virtual Environment <br/>
-Step 4: Create Virtual Environment <br/>
+# Server Guide <br/>
+__Step 1: Install Pip__
+__Step 2: Install Virtual Environment__ <br/>
+__Step 3: Create Virtual Environment__ <br/>
 (virtualenv __NameOfVirtualEnvironment__) <br/>
-Step 5: Activage Virtual Environment <br/> 
+__Step 4: Activage Virtual Environment__ <br/> 
 (source venv/bin/activate) <br/>
-Step 6: Go to Server_Side_Thesis/serverside_thesis
-Step 7: Install pip Requirements <br/>
-Step 8: Run Server <br/>
+__Step 5: Go to Server_Side_Thesis/serverside_thesis__
+__Step 6: Install pip Requirements__ <br/>
+(pip install -r requirements.txt) <br/>
+__Step 7: Run Server__ <br/>
+(python manage.py runserver)
 
-App Guide <br/>
-Step 1: Install Ionic and Cordova Framework and it's dependencies <br/>
-Step 2: Open Terminal <br/>
-Step 3: Change directory to 'app/clean_thesis/www' <br/>
-Step 4: Run 'ionic serve -l' in terminal <br/>
+# App Guide <br/>
+__Step 1: Install Ionic and Cordova Framework and it's dependencies__ <br/>
+__Step 2: Open Terminal__ <br/>
+__Step 3: Change directory to 'app/clean_thesis/www'__ <br/>
+__Step 4: Run 'ionic serve -l' in terminal__ <br/>
