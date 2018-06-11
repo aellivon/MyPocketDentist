@@ -1,8 +1,14 @@
 # MyPocketDentist
 # Thesis
+
 Server Guide: <br/>
-Step 1: Download Zip <br/>
-Step 2: Extract Zip <br/>
-Step 3: Create VirtualEnv <br/>
-Step 4: Install pip Requirements <br/>
-Step 5: Run Server <br/>
+Step 1: Install Django
+Step 2: Create VirtualEnv <br/>
+Step 3: Install pip Requirements <br/>
+Step 4: Run Server <br/>
+
+App Guide
+Step 1: Install Ionic and Cordova Framework and it's dependencies
+Step 2: Open Terminal
+Step 3: Change directory to 'app/clean_thesis/www'
+Step 4: Run 'ionic serve -l' in terminal
