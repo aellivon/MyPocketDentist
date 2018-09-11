@@ -1,5 +1,4 @@
 # MyPocketDentist
-# Thesis
 
 # Server Guide <br/>
 __Step 1: Install Pip__
