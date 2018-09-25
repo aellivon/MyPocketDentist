@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link rel="manifest" href="manifest.json">
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">     
+
+  </head>
+  <ion-pane>
+    <body ng-app="MobileOralDiagnosis">
+ 
+        <ui-view>
+
+        </ui-view>
+
+        <!-- footer -->
+        <script id="SearchModal.html" type="text/ng-template">
+              <ion-modal-view>
+                  <ion-header-bar class="bar-dark">
+                      <h1 class="title">Search Disease</h1>
+                      <button class="button button-icon" ng-click="closeSearchModal()">
+                          <i class="icon ion-android-close"></i>
+                      </button>
+                  </ion-header-bar>
+                  <ion-content class="custom-home-content">
+                       <div class = "row">
+                          <div class ="col">
+                            <div class="Modal_Div_Title">
+                              <label class="item item-input">
+                                <input ng-model="SearchText" class="custom-input-answer custom_input_search" type="text">
+                              </label>
+                              <button type="submit" ng-click="SearchDisease(SearchText)" class="button button-block button-light">Search Disease</button>
+                            </div>
+                          </div>
+                        </div>
+                  </ion-content>
+              </ion-modal-view>
+          </script>
+
+          <script id="AboutModal.html" type="text/ng-template">
+              <ion-modal-view ng-click="closeAboutModal()" class="WindowModal">
+                  <ion-content class="custom-about-content">
+                    <div class="custom_About_header">
+                                    <h2 class="About_Title">About</h2>
+                                    <div class ="custom_Box_Paragraph">
+                                        <p class="Custom_Paragraph"><strong>This application is not meant to replace an actual diagnosis from a dentist. </strong> The list of the disease may also be incomplete. If you think you have some serious symptoms, please visit your nearest dentist for an actual diagnosis.</p>
+                                        <p class="Custom_Paragraph"> 
+                                        This is a research titled 'Exploring the use of backward chaining and stanford certainty factor through Oral Diagnosis' which uses the said algorithm to diagnosis your possible disease. All data that is stored in the application is extracted from real dentists. </p>
+                                    </div>
+                        </div>
+                  </ion-content>
+              </ion-modal-view>
+          </script>
+    </body>
+    </ion-pane>
+    <footer>
+
+            <!-- ionic/angularjs js -->
+      <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+
+      <!-- cordova script (this will be a 404 during development) -->
+      <script src="cordova.js"></script>
+      <!-- your app's js -->
+      <script src="js/app.js"></script>
+
+      <!-- Controllers -->
+       <script src="js/Controllers/AllDiseaseController.js"></script>
+       <script src="js/Controllers/DiseaseDetails.js"></script>
+       <script src="js/Controllers/HomeController.js"></script>
+       <script src="js/Controllers/ExaminingController.js"></script>
+       <script src="js/Controllers/ResultList.js"></script>
+
+    </footer>
+</html>

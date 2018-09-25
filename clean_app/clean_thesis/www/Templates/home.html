@@ -1,0 +1,39 @@
+<ion-header-bar class="custom-nav-bar custom_header_row row">
+        <div class="custom-div-home col">
+            <h1 class="icon ion-home custom-home-icon CustomIconWhite" ui-sref="home" ></h1>
+        </div>
+
+        <div class=" custom-div-search col">
+           <h1 class="icon ion-search CustomIconSearch CustomIconWhite" ng-click="openSearchModal()"> </h1>
+
+        </div>
+        <div class="custom-div-information col">
+           <h1 class="icon ion-information-circled CustomIconSearch CustomIconWhite" ng-click="OpenAboutModal()"> </h1>
+        </div>
+</ion-header-bar>
+<ion-pane>
+  <ion-content class="background">
+  <div class="division-home-content">
+        <div class="row division_title">
+            <div class ="col home_title_division">
+                <h3 class="home_title">MY POCKET DENTIST </h3>
+            </div>
+        </div>
+            <div class="row margin_and_padding_0 division_image">
+                        <div class = "col margin_and_padding_0">
+                            <img class="custom_img_header" src="img/header.jpg">
+                        
+                        </div>
+            </div>
+
+        <div class="row division_buttons">
+            <div class="col top_and_bottom_button_padding" >
+                <button ng-click="StartExamine()" class="button button-light custom_button_Start_Examing_header" >Start Examining</button>
+            </div>
+            <div class="col top_and_bottom_button_padding">
+                <button ng-click="GoToDisease()" class="button button-light custom_All_Disease_header">All Disease</button>
+            </div>
+        </div>
+    </div>
+  </ion-content>
+</ion-pane>

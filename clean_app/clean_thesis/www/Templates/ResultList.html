@@ -1,0 +1,35 @@
+<ion-header-bar class="custom-nav-bar custom_header_row row">
+      <div class="  custom-div-back ">
+          <h1 class="icon ion-ios-arrow-back custom-home-icon CustomIconWhite" ng-click="goBack()" ></h1>
+        </div>
+
+        <div class="  custom-div-home ">
+            <h1 class="icon ion-home custom-home-icon CustomIconWhite" ng-click="goHome()" ></h1>
+        </div>
+        <div class=" custom-div-four-icon-search col">
+           <h1 class="icon ion-search CustomIconSearch CustomIconWhite" ng-click="openSearchModal()"> </h1>
+
+        </div>
+        <div class="custom-div-information col">
+           <h1 class="icon ion-information-circled CustomIconSearch CustomIconWhite" ng-click="OpenAboutModal()"> </h1>
+        </div>
+</ion-header-bar>
+<ion-pane>
+ 
+  <ion-content class="custom_disease_details_contents">
+      <div class="AbsoluteLoad">
+        <img class="LoadingImage"  ng-show="load" src="img/loading.gif">
+      </div>
+             <div class ="margin_padding_title_disease_details">
+          <div class=" custom_disease_list_header">
+              <h1 class="title_disease_list">Result List</h1>
+          </div>
+        </div>
+          <div class="row custom_division_all_disease" ng-repeat="disease in AllDisease | orderObjectBy:orderByAttribute"">
+               <h1 class="col ResultName">{{disease.name}}</h1>
+
+               <h3 ng-click="GoToDisease(disease.id)" class=" ResultCF"> {{disease.cf}}% </h3>
+               <h3 ng-click="GoToDisease(disease.id)" class="col ion-chevron-right result_arrow"></h3>
+        </div>
+  </ion-content>
+</ion-pane>

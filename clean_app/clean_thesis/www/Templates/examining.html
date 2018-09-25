@@ -1,0 +1,70 @@
+<ion-header-bar class="custom-nav-bar custom_header_row row">
+       <div class="  custom-div-back ">
+          <h1 class="icon ion-ios-arrow-back custom-home-icon CustomIconWhite" ng-click="goBack()" ></h1>
+        </div>
+
+        <div class="  custom-div-home ">
+            <h1 class="icon ion-home custom-home-icon CustomIconWhite" ng-click="goHome()" ></h1>
+        </div>
+        <div class=" custom-div-four-icon-search col">
+           <h1 class="icon ion-search CustomIconSearch CustomIconWhite" ng-click="openSearchModal()"> </h1>
+
+        </div>
+        <div class="custom-div-information col">
+           <h1 class="icon ion-information-circled CustomIconSearch CustomIconWhite" ng-click="OpenAboutModal()"> </h1>
+        </div>
+</ion-header-bar>
+<ion-pane>
+ 
+  <ion-content scroll="false" class="background" has-bouncing="false">
+     <div class="custom-home-content">
+        <div class="AbsoluteLoad">
+          <img class="LoadingImage"  ng-show="load" src="img/loading.gif">
+        </div>
+        <div class = "row Column_and_Row_Top_0">
+          <div class ="col Column_and_Row_Top_0">
+          <div class ="ProgressBarDivision ">
+               <progress class="ProgressBar" max="100" value="{{progress}}"> </progress>
+           </div>
+            <div class="Examining_Div_Title">
+
+                <h3 class="Examining_Header_Title"> EXAMINING </h3>
+            </div>
+
+             <div class ="Examining_Box_Overlay">
+                  <p class="Examining_Question">{{data.question[0].question}}</p>
+
+                <div class="Absolute_Image" ng-show="show_image">
+                        <h1 ng-click="openImageModal()" class="ion-image details_image"> </h1>
+                </div>
+              </div>
+          </div>
+        </div>
+          <div class ="row">
+                <div class="col">
+                    <button id="button_yes" type="submit" ng-click="Yes_Next(data.question[0].id)" class="button button-light custom_home_sd_button home_button">Yes</button>
+                </div>
+                <div class="col">
+                    <button id="button_no" type="submit" ng-click="No_Next(data.question[0].id)"  class="button button-light custom_home_list_buttton home_button">No</button>
+                </div>
+            </div>
+     </div>
+  </ion-content>
+          <script id="ImageModal.html" type="text/ng-template">
+              <ion-modal-view>
+                  <ion-header-bar class="bar-dark">
+                      <h1 class="title">Image Reference</h1>
+                      <button class="button button-icon" ng-click="closeImageModal()">
+                          <i class="icon ion-android-close"></i>
+                      </button>
+                  </ion-header-bar>
+                  <ion-content class="custom-home-content">
+                    <div class="row margin_and_padding_0 division_modal_image ">
+                                <div class = "col margin_and_padding_0">
+                                    <img class="modal_image" src="{{image}}">
+                                </div>
+                    </div>
+                  </ion-content>
+              </ion-modal-view>
+          </script>
+</ion-pane>

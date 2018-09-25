@@ -1,0 +1,644 @@
+/* General Css */
+
+.custom-nav-bar{
+	background-color: #454964;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+.CustomIconSearch{
+	float:right;
+}
+
+.custom_header_row{
+	padding:0px;
+}
+.CustomIconWhite{
+	color:#FFFFFF;
+}
+.home_title_division{
+}
+.custom-home-content{
+	background-color: #34374B;
+	height: 100vh;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.custom-about-content{
+	background-color: transparent !important;
+	margin-top: 0px;
+	margin-top: 20vh;
+
+}
+.WindowModal{
+	width: 80%;
+	background-color: rgba(0, 0, 0, 0.6);
+	min-width: 100vw;
+	min-height: 100vh; 
+	bottom: 20%;
+}
+
+.background.scroll-content{
+    background-color: #34374B;
+}
+.custom-div-four-icon-search{
+	padding-left: 55%;
+	width: 10%;
+	display: flex; 
+	justify-content: flex-end;
+}
+.custom-div-search{
+	padding-left: 60%;
+	width: 10%;
+	display: flex; 
+	justify-content: flex-end;
+}
+
+.custom-div-information{
+	padding-top: 5px;
+	width: 10%;
+	display: flex; 
+	justify-content: flex-end;
+}
+
+.home_button{
+	width: 100%;
+}
+
+.custom-div-back{
+	padding-top: 5px;
+	margin-right: 0px;
+	padding-right: 0px;
+	padding-left: 3%;
+	padding-right: 7%;
+	width: 10%;
+}
+
+.margin_and_padding_0{
+	padding:0px;
+	margin:0px;
+}
+
+
+.custom-div-home{
+	padding-top: 4px;
+	padding-left: 2%;
+	width: 10%;
+}
+
+
+.division_title{
+	height:8vh;
+	background-color: #66C0C0;
+	text-align: center;
+}
+.no_margin_padding_col{
+	margin-left: 0px;
+	margin-right: 0px;
+	padding:0px;
+}
+
+.no_margin_padding_row{
+	margin: 0px;
+	padding: 0px;
+}
+
+.home_title{
+	color:#ECECEC;
+	font-style: Verdana;
+}
+
+/* Home Content */
+
+.division-home-content{
+	background-color: #34374B;
+	height: 90vh;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.ionic_content{
+	background-color: #34374B;
+}
+.custom_img_header{
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+
+.division_image{
+	height: 72vh;
+	margin-bottom: 0px;
+}
+
+.CreditLink{
+	color:white;
+	position: absolute;
+	margin-top: 65vh;
+	margin-left: 23vw;
+}
+
+
+.division_buttons{
+	height: 13vh;
+	padding-top: 0px;
+}
+
+
+.top_and_bottom_button_padding{
+	padding-top:5px;
+	padding-bottom: 4px;
+}
+
+
+.custom_button_Start_Examing_header{
+	width:100%;
+	margin-top:10px;	
+}
+.custom_All_Disease_header{
+	width:100%;
+	margin-top:10px;
+}
+.custom_About_header{
+	text-align:center;
+	background-color:white;
+	margin-left:8px;
+	margin-top: 5vh;
+	min-height: 37vh;
+	width: 95%;
+}
+.About_Title{
+	margin-bottom: 0px;
+}
+
+.Custom_Paragraph{
+	text-indent: 25px;
+}
+.custom_Box_Paragraph{
+	min-height: 170px;
+	text-align:justify;
+	padding-right:15px;
+	padding-left: 10px;
+	padding-top: 0px;
+}
+
+
+/* Loading Css */
+.AbsoluteLoad{
+	margin-top:65%;
+	margin-left: 40%;
+	position: absolute;
+}
+
+.LoadingImage{
+	width: 60px;
+	height: 60px;
+}
+
+
+/* All Disease */
+.custom_disease_list_header{
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: center;
+	padding-bottom: 0px;
+	height: 50px;
+	width:100%;
+	padding-bottom: 0px;
+	margin-bottom: 1vw;
+	background-color:white;
+    border:2px solid #ccc;
+
+}
+.title_disease_list{
+	font-size: 45px;
+	font-family: 'Verdana';
+}
+.disease_arrow{
+	color: gray;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 5vw;
+	height: 50%;
+	max-width: 20vw;
+	min-width: 20vw;
+	padding-top: 8px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+.custom_disease_title{
+	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	max-height: 30px;
+	max-width: 80vw;
+	min-width: 80vw;
+    font-size:20px;
+   	overflow: hidden;
+   	font-family: 'Verdana';
+   	padding-top: 7px;
+}
+
+
+.custom_division_all_disease{
+	background-color:white;
+	width:100%;
+	margin:0px;
+	margin-bottom: 2vw;
+	max-height: 40px;
+	border-bottom:1px solid black;
+}
+.DiseaseDetails{
+	text-indent: 20px;
+}
+
+.content_remove_space_top{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+
+.AllDiseaseOverlay{
+
+	margin: 5px;
+	background-color: #ccc;
+	overflow-y: auto;
+	margin-bottom: 0px;
+	height: 90%;
+
+}
+.custom_overlay_header{
+	background-color:#aaa;
+	height:90%;
+	width:95%;
+	margin-left:2.5%;
+	overflow-y: auto;
+	margin-top:5px;
+}
+
+.custom_disease_details{
+	background-color:white;
+	margin-left:8px;
+	height: 233px;
+	width: 95%;
+	overflow-y: auto;
+	text-align:justify;
+	height: 50px;
+	margin-right:20px;
+}
+
+/* Result List */
+
+.DiseaseName{
+	overflow:hidden;
+	height: 30px;
+}
+
+.DiseaseItem{
+	padding: 10px;
+	height: 100px;
+	background-color: white;
+	opacity: 1;
+	width: 96%;
+	margin: 2%;
+
+}
+
+.ResultName{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	max-height: 30px;
+	max-width: 70vw;
+	min-width: 70vw;
+    font-size:20px;
+   	overflow: hidden;
+   	font-family: 'Verdana';
+   	padding-top: 7px;
+}
+
+.result_arrow{
+	color: gray;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 5vw;
+	height: 50%;
+	max-width: 10vw;
+	min-width: 10vw;
+	padding-top: 8px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	color: red;
+}
+
+.ResultCF{
+	padding: 0px;
+	margin: 0px;
+	font-size: 20px;
+	min-width: 20vw;
+	max-width: 20vw;
+	height: 30px;
+	display: flex;
+	color: red;
+	padding-top: 8px;
+	justify-content: flex-end;
+}
+
+
+.DiseaseAdvise{
+	padding: 0px;
+	margin: 0px;
+	text-indent: 30px;
+}
+
+.ResultDiseaseAdvise{
+	height:50px;
+	text-indent: 20px;
+	padding: 5px;
+	margin: 0px;
+}
+
+.ResultAdvise{
+
+	overflow-y: auto;
+
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Disease Details */
+
+.custom_disease_details_contents{
+	background-color: #34374B;
+	min-height: 90vh;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.margin_padding_title_disease_details{
+	margin-top: 2%;	
+}
+.custom_disease_details_header{
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: center;
+	padding-bottom: 0px;
+	width:100%;
+	background-color:white;
+    border-bottom:1px solid #ccc;
+}
+
+
+.image_button{
+	margin-right: 20%;
+	margin-left: 20%;
+	width: 60%;
+}
+
+.modal_image{
+
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+
+}
+
+
+.division_modal_image{
+	height: 220px;
+    margin-top: 35%;
+	width: 100%;
+	text-align: center;
+}	
+
+/* Examing css */
+progress[value] {
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 100%;
+  margin-bottom: .5%;
+  padding-bottom: .5%;
+  margin-bottom: .5%;
+  height: 20px;
+}
+
+.ProgressBarDivision{
+	margin-top: 0%;
+	margin-bottom: 0%;
+	padding-bottom: 0%;
+	margin-bottom: 0%;
+}
+
+progress[value]::-webkit-progress-bar {
+
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.Column_and_Row_Top_0{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.Absolute_Image{
+	position: absolute;
+	margin-top: 25vh;
+	right: 0;
+}
+
+.Examining_Box_Overlay{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	padding-top: 0px;
+	padding: 12px;
+	margin-top: 0px;
+	background-color: white;
+	width: 100%;
+	height: 62vh;
+	overflow-y: auto;
+}
+
+.Examining_Question{
+	text-align: center;
+	font-size: 16.5px;
+	font-family: 'Verdana';
+}
+
+.Examining_Div_Title{
+	border:1px solid #ccc;
+	background-color: white;
+	padding-bottom: 0px;	
+	margin-bottom: 0px;
+	margin-top: 0%;
+	text-align: center;
+	height: 8.5vh;
+}
+
+.Examining_Header_Title{
+	padding:0;
+	font-size: 40px;
+}
+
+
+
+/* DiseaseDetails */
+
+.custom_disease_details_header{
+	font-size:25px;
+}
+.custom_disease_header{
+    margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 7px;
+	width:100%;
+	min-height: 7vh;
+	background-color:white;
+	text-align: center;
+}
+.custom_99_text{
+    font-size:25px;
+    padding-top:1px;
+	margin-left: 90px;
+}
+.custom_cause_header{
+	margin-top: 10px;
+	width:100%;
+	background-color:white;
+}
+
+
+.custom_clinical_features_header{
+	margin-top: 10px;
+	width:100%;
+	background-color:white;
+}
+.custom_advice_header{
+	margin-top: 10px;
+	width:100%;
+	background-color:white;
+
+}
+.item_min_height{
+	min-height: 40px;
+	margin-bottom: 20px;
+}
+
+
+.custom_box_header_content{
+	margin-bottom: 0px;
+	border-bottom:1px solid #ccc;
+}
+
+.custom_home_box_paragaph{
+	padding:0px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	text-indent: 20px;
+	font-size: 15px;
+	overflow-y: auto;
+	min-height: 15vh;
+	padding-left: 15px;
+	border-bottom:1px solid #ccc;
+
+}
+
+.custom_inner_box_content_list{	
+	height: 15vh;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+
+	
+}
+.item-min-height{
+	min-height: 20px;
+}
+.list-style{
+	font-size:15px !important;
+	color: black !important;
+	text-indent: 20px !important;
+	background-color: white;
+	padding: 10px;
+	padding-left: 20px;
+	margin:0;
+	border:1px solid #ccc;
+}
+
+.evidence_name{
+	width: 80vw;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+.details_image{
+	color: black;
+	width: 20%;
+	display: flex;
+	justify-content: flex-end;
+	vertical-align: middle;
+	margin-top: 0px;
+	padding: 0;
+
+}
+
+/* Modal */
+
+.Modal_Div_Title{
+	border:1px solid #ccc;
+	background-color: white;
+	padding-bottom: 0px;	
+	margin-bottom: 0px;
+	margin-top: 40%;
+	text-align: center;
+	height: 2vh;
+}
+
+
+.custom_input_search{
+	text-align: center;
+}
+
+/* From ionic forum fade in animation */
+
+.fade-in {
+  -webkit-transform: scale(0.0);
+  transform: scale(0.0);
+  opacity: 0;
+}
+.fade-in.ng-enter, .fade-in > .ng-enter {
+  -webkit-transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 250ms;
+  transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 250ms;
+}
+.fade-in.ng-enter-active,
+.fade-in > .ng-enter-active {
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0);
+  opacity: 1;
+}
+
+.fade-in.ng-leave, .fade-in > .ng-leave {
+  -webkit-transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
+}
+
+::-webkit-scrollbar{ display:none; } 
+
+/* etc css */
+/*.scroll-content > .scroll {
+  height: 100%;
+}
+.scroll-content > .scroll > iframe {
+  min-height: 100%;
+}*/
+
+
+/* optional: show position indicator in red */
+
+

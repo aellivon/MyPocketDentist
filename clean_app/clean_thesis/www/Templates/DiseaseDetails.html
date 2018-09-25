@@ -1,0 +1,82 @@
+<ion-header-bar class="custom-nav-bar custom_header_row row">
+      <div class="  custom-div-back ">
+          <h1 class="icon ion-ios-arrow-back custom-home-icon CustomIconWhite" ng-click="goBack()" ></h1>
+        </div>
+
+        <div class="  custom-div-home ">
+            <h1 class="icon ion-home custom-home-icon CustomIconWhite" ng-click="goHome()" ></h1>
+        </div>
+        <div class=" custom-div-four-icon-search col">
+           <h1 class="icon ion-search CustomIconSearch CustomIconWhite" ng-click="openSearchModal()"> </h1>
+
+        </div>
+        <div class="custom-div-information col">
+           <h1 class="icon ion-information-circled CustomIconSearch CustomIconWhite" ng-click="OpenAboutModal()"> </h1>
+        </div>
+</ion-header-bar>
+<ion-pane>
+  <ion-content class="custom_disease_details_contents">
+      <div class="AbsoluteLoad">
+          <img class="LoadingImage" ng-show="load" src="img/loading.gif">
+      </div>
+      <div class ="margin_padding_title_disease_details">
+                <div class=" custom_disease_details_header">
+                    <h1 class="">Disease Profile</h1>
+                </div>
+      </div>
+      <div class ="margin_padding_title_disease_name">
+        <div class="custom_disease_header" >
+            <h2 class="custom_disease_text">{{DiseaseName}}</h2>
+        </div>
+      </div>
+        <div class=" custom_cause_header">
+            <h3 class="custom_box_header_content custom_cause_text">Details</h3>
+              <div class ="custom_inner_box_content">
+                  <p class ="custom_home_box_paragaph">{{Details}} </p>
+              </div>
+        </div>
+        <div class=" custom_cause_header">
+            <h3 class="custom_box_header_content custom_cause_text">Cause</h3>
+              <div class ="custom_inner_box_content">
+                  <p class ="custom_home_box_paragaph">{{Cause}} </p>
+              </div>
+        </div>
+                <div class=" custom_advice_header">
+            <h3 class="custom_box_header_content custom_advice_text">Advise</h3>
+            <div class ="custom_inner_box_content">
+                <p class ="custom_home_box_paragaph">{{Advise}} </p>
+            </div>
+        </div> 
+        <div class=" custom_clinical_features_header">
+                <h3 class="custom_box_header_content custom_clinical_features_text">Clinical Features</h3>
+
+        </div>
+                <div class ="custom_inner_box_content_list" >
+                  <div ng-repeat="evidence in Evidence" class="item-min-height">
+                      <div class="row item-text-wrap list-style">
+
+                           <p class="evidence_name">{{evidence.name}}<p>
+                           <h2 ng-show="{{evidence.image}}" ng-click="openImageModal('{{evidence.image}}')" class="ion-image details_image"> </h2>
+                      </div>
+                  </div>
+                </div>
+
+          <script id="ImageModal.html" type="text/ng-template">
+              <ion-modal-view>
+                  <ion-header-bar class="bar-dark">
+                      <h1 class="title">Image Reference</h1>
+                      <button class="button button-icon" ng-click="closeImageModal()">
+                          <i class="icon ion-android-close"></i>
+                      </button>
+                  </ion-header-bar>
+                  <ion-content class="custom-home-content">
+                    <div class="row margin_and_padding_0 division_modal_image ">
+                                <div class = "col margin_and_padding_0">
+                                    <img class="modal_image" src="{{image}}">
+                                </div>
+                    </div>
+                  </ion-content>
+              </ion-modal-view>
+          </script>
+  </ion-content>
+</ion-pane>
